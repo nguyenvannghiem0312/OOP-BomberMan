@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 1232584fd55f20942981b473dede15ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_0
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 408
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5454643, y: 0.48570994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d2d3453eb1b841a1f858573570388
+      internalID: 1527598821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5fa56b4e9d6d24cb0d05f3909c0b7a
+      internalID: -639065598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792bdf314a82e39479a97064d7c8af82
+      internalID: -442698439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af5338f685e67940821ed2b3fd7e13a
+      internalID: 136084945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47abe269d7cc65b49ab0dd0672c1de93
+      internalID: 1440333531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406708b6c6106ff4b857a49ae3a10b0e
+      internalID: -1245602071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb4ac61ce6cc5488e9564a45fdf2cf
+      internalID: -1009418880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c78bb57cd81f494d82058fc61005a4c
+      internalID: 380923991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 373
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47359ca8b44c340409dc9def50ae4aa9
+      internalID: -2062980398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 373
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dfa502b5115374d895715b5efeceff
+      internalID: 944327432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 373
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07561a0c478f54d4699df9537c9cd3b0
+      internalID: 1096380989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 373
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee997e59918afb4c8d827a9944839db
+      internalID: 1560308555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 337
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99717c393750d214e936dbfc526b89ce
+      internalID: -1292426619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 337
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4aed723c11cee49875cf3e011eeed4
+      internalID: -1365384484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 337
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce637467a55fec49b5ecb340e6a1c91
+      internalID: -1072564981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 337
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862979b797501a241927c00e31c039e2
+      internalID: 800125551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 302
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c64c2e824a8af4ba0885099a2a525f
+      internalID: 897517834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 302
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2130590fdb842a84a8aeb5080efaccaa
+      internalID: -1920581747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 420
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55aee12fa8f5514a809c8a5cb2ae2bc
+      internalID: 215893451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 420
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ac229f4fd81b4b9fd9d30d14bfdca
+      internalID: 516421577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 420
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098c33f8673a737468d28ccea6898586
+      internalID: -894111710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 420
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a0b495d49aa9458304d230f76a09e
+      internalID: 1723284940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 420
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8a39def76fa74f844eebb25e06238
+      internalID: 1608881626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 420
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6be6e89f2201a438e4c5fc462b701b
+      internalID: -474132834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 357
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f53f171c6a04c645ad07e053ab5b998
+      internalID: -104365482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 357
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8bd24cd03181c4a8808d1b5330c588
+      internalID: 130551051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_enemies_sprites_by_dotshima_d1fv7zp_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 357
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1315361b7aa57141ab4fcf95e97e8f7
+      internalID: 1540258173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mario_enemies_sprites_by_dotshima_d1fv7zp_3: 136084945
+      mario_enemies_sprites_by_dotshima_d1fv7zp_0: 1527598821
+      mario_enemies_sprites_by_dotshima_d1fv7zp_6: -1009418880
+      mario_enemies_sprites_by_dotshima_d1fv7zp_20: -894111710
+      mario_enemies_sprites_by_dotshima_d1fv7zp_22: 1608881626
+      mario_enemies_sprites_by_dotshima_d1fv7zp_2: -442698439
+      mario_enemies_sprites_by_dotshima_d1fv7zp_18: 215893451
+      mario_enemies_sprites_by_dotshima_d1fv7zp_21: 1723284940
+      mario_enemies_sprites_by_dotshima_d1fv7zp_9: 944327432
+      mario_enemies_sprites_by_dotshima_d1fv7zp_26: 1540258173
+      mario_enemies_sprites_by_dotshima_d1fv7zp_25: 130551051
+      mario_enemies_sprites_by_dotshima_d1fv7zp_8: -2062980398
+      mario_enemies_sprites_by_dotshima_d1fv7zp_12: -1292426619
+      mario_enemies_sprites_by_dotshima_d1fv7zp_17: -1920581747
+      mario_enemies_sprites_by_dotshima_d1fv7zp_24: -104365482
+      mario_enemies_sprites_by_dotshima_d1fv7zp_10: 1096380989
+      mario_enemies_sprites_by_dotshima_d1fv7zp_11: 1560308555
+      mario_enemies_sprites_by_dotshima_d1fv7zp_14: -1072564981
+      mario_enemies_sprites_by_dotshima_d1fv7zp_4: 1440333531
+      mario_enemies_sprites_by_dotshima_d1fv7zp_23: -474132834
+      mario_enemies_sprites_by_dotshima_d1fv7zp_16: 897517834
+      mario_enemies_sprites_by_dotshima_d1fv7zp_15: 800125551
+      mario_enemies_sprites_by_dotshima_d1fv7zp_19: 516421577
+      mario_enemies_sprites_by_dotshima_d1fv7zp_1: -639065598
+      mario_enemies_sprites_by_dotshima_d1fv7zp_13: -1365384484
+      mario_enemies_sprites_by_dotshima_d1fv7zp_5: -1245602071
+      mario_enemies_sprites_by_dotshima_d1fv7zp_7: 380923991
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
