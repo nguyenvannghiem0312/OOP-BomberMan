@@ -76,7 +76,7 @@ public class EnemyController : MonoBehaviour
     {
         audioSource.clip = sound.audioDeath;
         audioSource.Play();
-
+        gameObject.SetActive(false);
         if (FindObjectOfType<GameManager>().CheckWinWithBoss() == true)
         {
             audioSource.clip = sound.audioWin;
@@ -85,6 +85,5 @@ public class EnemyController : MonoBehaviour
             FindObjectOfType<UI>().ShowPanel(FindObjectOfType<UI>().PanelWin, true);
             Time.timeScale = 0;
         }
-        gameObject.SetActive(false);
     }
 }
