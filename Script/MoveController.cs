@@ -4,19 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MoveController : MonoBehaviour
 {
+    [Header("Speed and HP")]
     public int maxHP = 5;
     public float maxSpeed = 6.5f;
-    public bool isBoss = false;
-    public Rigidbody2D rigibody { get; private set; }
-    private Vector2 direction = Vector2.down;
     public float speed = 5f;
     public int HP = 1;
-    
+
+    [Header("State")]
+    public bool isBoss = false;
+   
+    [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
     public KeyCode inputDown = KeyCode.S;
     public KeyCode inputLeft = KeyCode.A;
     public KeyCode inputRight = KeyCode.D;
 
+    [Header("Animation")]
     public AnimatedSprite spriteRendererUp;
     public AnimatedSprite spriteRendererDown;
     public AnimatedSprite spriteRendererLeft;
@@ -24,6 +27,9 @@ public class MoveController : MonoBehaviour
     public AnimatedSprite spriteRendererRevival;
     public AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
+
+    public Rigidbody2D rigibody { get; private set; }
+    private Vector2 direction = Vector2.down;
 
     private UI ui;
     private SoundManage sound;

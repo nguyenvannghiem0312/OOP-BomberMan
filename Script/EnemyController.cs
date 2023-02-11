@@ -6,17 +6,21 @@ using UnityEngine.UI;
 public class EnemyController : MonoBehaviour
 {
     public Rigidbody2D rigibody { get; private set; }
+
+    [Header("Direction")]
     public Vector2 directionStart = Vector2.down;
     public Vector2 directionEnd = Vector2.up;
+
+    [Header("Speed")]
     public float speed = 2f;
     
+    [Header("Animation")]
     public AnimatedSprite spriteRendererStart;
     public AnimatedSprite spriteRendererEnd;
     public AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
 
     private SoundManage sound;
-
     private UI ui;
     private void Awake()
     {
@@ -43,11 +47,6 @@ public class EnemyController : MonoBehaviour
         AnimatedSprite spriteRendererChange = spriteRendererStart;
         spriteRendererStart = spriteRendererEnd;
         spriteRendererEnd = spriteRendererChange;
-
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Death();
-        }
     }
     public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {

@@ -6,17 +6,22 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
+    [Header("Message Win or Lose")]
+    public GameObject PanelWin;
+    public GameObject PanelLose;
+
+    [Header("Number HP and Bomb")]
+    public Text numBomb;
+    public Text numHP;
+
+    [Header("Score")]
+    public Text score;
     // List<int> scene = new List<int>() { 1 };
     public void ChangeScene(int SceneID)
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneID);
     }
-    public GameObject PanelWin;
-    public GameObject PanelLose;
-    public Text score;
-    public Text numBomb;
-    public Text numHP;
     public void ShowPanel(GameObject Panel, bool panel)
     {
         if (Panel)

@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private UI ui;
-    public int numEnemy;
-    private int scoreHard = 200;
+    [Header("Players")]
     public GameObject[] Players;
+
+    [Header("Enemys")]
     public GameObject[] EnemysPrefabs;
+    public int numEnemy;
+    public int scoreHard = 200;
+    
+    private UI ui;
     private void Start()
     {
         numEnemy = FindObjectsOfType<EnemyController>().Length;

@@ -3,7 +3,6 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
     private SoundManage sound;
-
     private void Awake()
     {
         sound = FindObjectOfType<SoundManage>();
@@ -55,7 +54,6 @@ public class ItemPickup : MonoBehaviour
     {
         if (other.CompareTag("Player")) {
             sound.PlayAudioClip(sound.audioItem);
-
             OnItemPickup(other.gameObject);
         }
     }

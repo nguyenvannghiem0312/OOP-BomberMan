@@ -3,27 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Tilemaps;
+
 public class BombController : MonoBehaviour
 {
-    public int maxBomb = 5, maxRadius = 5;
-
-    public GameObject bombPrefabs;
-    public KeyCode inputKey = KeyCode.Space;
+    [Header("Bomb")]
+    public int maxBomb = 5;
     public float bombFuseTime = 3f;
     public int bombAmount = 1;
     private int bombsRemaining;
+    public GameObject bombPrefabs;
 
+    [Header("Place Bomb")]
+    public KeyCode inputKey = KeyCode.Space;
+
+    [Header("Explosion Radius")]
+    public int maxRadius = 5;
+    public int explosionRadius = 2;
+    public float explosionDuration = 1f;
     public Explosion explosionPrefabs;
     public LayerMask explosionLayerMask;
-    public float explosionDuration = 1f;
-    public int explosionRadius = 2;
 
+    [Header("Map")]
     public Tilemap destructibleTiles;
     public Destructible destructiblePrefabs;
 
     private SoundManage sound;
-
     private UI ui;
+
     private void OnEnable()
     {
         ui = FindObjectOfType<UI>();
@@ -37,10 +43,8 @@ public class BombController : MonoBehaviour
             StartCoroutine(PlaceBomb());    
         }
     }
-
     private IEnumerator PlaceBomb()
     {
-
         Vector2 position = transform.position;
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
