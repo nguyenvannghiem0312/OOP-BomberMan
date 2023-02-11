@@ -7,7 +7,6 @@ public class BombController : MonoBehaviour
 {
     public int maxBomb = 5, maxRadius = 5;
 
-    public Text numBombs;
     public GameObject bombPrefabs;
     public KeyCode inputKey = KeyCode.Space;
     public float bombFuseTime = 3f;
@@ -22,12 +21,12 @@ public class BombController : MonoBehaviour
     public Tilemap destructibleTiles;
     public Destructible destructiblePrefabs;
 
-    private AudioSource audioSource;
     private SoundManage sound;
 
+    private UI ui;
     private void OnEnable()
     {
-        audioSource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
+        ui = FindObjectOfType<UI>();
         sound = FindObjectOfType<SoundManage>();
         bombsRemaining = bombAmount;
     }
@@ -51,8 +50,7 @@ public class BombController : MonoBehaviour
 
         yield return new WaitForSeconds(bombFuseTime);
 
-        audioSource.clip = sound.audioBomb;
-        audioSource.Play();
+        sound.PlayAudioClip(sound.audioBomb);
 
         position = bomb.transform.position;
         position.x = Mathf.Round(position.x);
@@ -118,7 +116,7 @@ public class BombController : MonoBehaviour
         {
             bombAmount++;
             bombsRemaining++;
-            numBombs.text = bombAmount.ToString();
+            ui.SetBomb(bombAmount);
         }
     }
 }

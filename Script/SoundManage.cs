@@ -8,5 +8,11 @@ public class SoundManage : MonoBehaviour
     public AudioClip audioDeath;
     public AudioClip audioWin;
     public AudioClip audioItem;
+    public AudioSource audioSource;
 
+    public void PlayAudioClip(AudioClip audioClip)
+    {
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
 }

@@ -4,8 +4,29 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private UI ui;
+    public int numEnemy;
+    private int scoreHard = 200;
     public GameObject[] Players;
-
+    public GameObject[] EnemysPrefabs;
+    private void Start()
+    {
+        numEnemy = FindObjectsOfType<EnemyController>().Length;
+        ui = FindObjectOfType<UI>();
+    }
+    private void Update()
+    {
+        SummonEnemy();
+        IncreaseEnemy();
+    }
+    private void IncreaseEnemy()
+    {
+        if(ui.GetScore() / scoreHard > 0)
+        {
+            numEnemy += 2 * ui.GetScore() / scoreHard;
+            scoreHard *= 2;
+        }
+    }
     public string CheckWinWithPlayer()
     {
         int countPlayer = 0;
@@ -34,5 +55,20 @@ public class GameManager : MonoBehaviour
             return true;
         }
         return false;
+    }
+    private void SummonEnemy()
+    {
+        while (FindObjectsOfType<EnemyController>().Length < numEnemy)
+        {
+            int x, y;
+            do
+            {
+                x = Random.Range(-12, 12);
+                y = Random.Range(-5, 5);
+            }
+            while (x % 2 != 0 || y % 2 == 0);
+            int index = Random.Range(0, EnemysPrefabs.Length);
+            Instantiate(EnemysPrefabs[index], new Vector3(x, y, 0), Quaternion.identity);
+        }
     }
 }

@@ -15,11 +15,12 @@ public class EnemyController : MonoBehaviour
     public AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
 
-    private AudioSource audioSource;
     private SoundManage sound;
+
+    private UI ui;
     private void Awake()
     {
-        audioSource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
+        ui = FindObjectOfType<UI>();
         sound = FindObjectOfType<SoundManage>();
 
         rigibody = GetComponent<Rigidbody2D>();
@@ -42,6 +43,11 @@ public class EnemyController : MonoBehaviour
         AnimatedSprite spriteRendererChange = spriteRendererStart;
         spriteRendererStart = spriteRendererEnd;
         spriteRendererEnd = spriteRendererChange;
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Death();
+        }
     }
     public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {
@@ -74,16 +80,26 @@ public class EnemyController : MonoBehaviour
     }
     private void OnDeath()
     {
-        audioSource.clip = sound.audioDeath;
-        audioSource.Play();
+        IncreScore();
+        
         gameObject.SetActive(false);
         if (FindObjectOfType<GameManager>().CheckWinWithBoss() == true)
         {
-            audioSource.clip = sound.audioWin;
-            audioSource.Play();
+            sound.PlayAudioClip(sound.audioWin);
 
-            FindObjectOfType<UI>().ShowPanel(FindObjectOfType<UI>().PanelWin, true);
+            ui.ShowPanel(ui.PanelWin, true);
             Time.timeScale = 0;
+        }
+    }
+    private void IncreScore()
+    {
+        if (gameObject.GetComponent<EnemyController>().speed == 2)
+        {
+            ui.SetScore(10);
+        }
+        else
+        {
+            ui.SetScore(20);
         }
     }
 }

@@ -9,7 +9,6 @@ public class MoveController : MonoBehaviour
     public bool isBoss = false;
     public Rigidbody2D rigibody { get; private set; }
     private Vector2 direction = Vector2.down;
-    public Text numHP;
     public float speed = 5f;
     public int HP = 1;
     
@@ -27,11 +26,9 @@ public class MoveController : MonoBehaviour
     private AnimatedSprite activeSpriteRenderer;
 
     private UI ui;
-    private AudioSource audioSource;
     private SoundManage sound;
     private void Awake()
     {
-        audioSource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
         sound = FindObjectOfType<SoundManage>();
         ui = FindObjectOfType<UI>();
         rigibody = GetComponent<Rigidbody2D>();
@@ -40,7 +37,7 @@ public class MoveController : MonoBehaviour
 
     private void Update()
     {
-        numHP.text = HP.ToString();
+        ui.SetHP(HP);
         if (Input.GetKey(inputUp))
         {
             SetDirection(Vector2.up, spriteRendererUp);
@@ -89,7 +86,7 @@ public class MoveController : MonoBehaviour
             HP--;
             if(HP <= 0)
             {
-                numHP.text = HP.ToString();
+                ui.SetHP(HP);
                 Death();
             }
             else
@@ -105,7 +102,7 @@ public class MoveController : MonoBehaviour
             HP--;
             if (HP <= 0)
             {
-                numHP.text = "0";
+                ui.SetHP(0);
                 Death();
             }
             else
@@ -129,8 +126,7 @@ public class MoveController : MonoBehaviour
     }
     private void OnDeath()
     {
-        audioSource.clip = sound.audioDeath;
-        audioSource.Play();
+        sound.PlayAudioClip(sound.audioDeath);
         gameObject.SetActive(false);
         if (isBoss)
         {

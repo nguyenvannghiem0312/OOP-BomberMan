@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    private AudioSource audioSource;
     private SoundManage sound;
 
     private void Awake()
     {
-        audioSource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
         sound = FindObjectOfType<SoundManage>();
     }
     public enum ItemType
@@ -56,8 +54,7 @@ public class ItemPickup : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) {
-            audioSource.clip = sound.audioItem;
-            audioSource.Play();
+            sound.PlayAudioClip(sound.audioItem);
 
             OnItemPickup(other.gameObject);
         }
