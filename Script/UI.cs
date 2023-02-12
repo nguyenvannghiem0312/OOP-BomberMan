@@ -6,9 +6,11 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
-    [Header("Message Win or Lose")]
-    public GameObject PanelWin;
-    public GameObject PanelLose;
+    [Header("Panel")]
+    public GameObject PanelWin;  // Maybe not need
+    public GameObject PanelLose; // Maybe not need
+    public GameObject PanelSetting;
+    public GameObject PanelEndGame;
 
     [Header("Number HP and Bomb")]
     public Text numBomb;
@@ -16,7 +18,10 @@ public class UI : MonoBehaviour
 
     [Header("Score")]
     public Text score;
-    // List<int> scene = new List<int>() { 1 };
+
+    [Header("Input Name")]
+    public InputField saveName;
+
     public void ChangeScene(int SceneID)
     {
         Time.timeScale = 1;
@@ -51,5 +56,22 @@ public class UI : MonoBehaviour
     public void SetHP(int numhp)
     {
         numHP.text = (numhp).ToString();
+    }
+    public void ShowSetting(bool state)
+    {
+        if(state == true)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+        ShowPanel(PanelSetting, state);
+    }
+
+    public string GetName()
+    {
+        return saveName.text + "\t\t" + score.text.Remove(0, 7);
     }
 }

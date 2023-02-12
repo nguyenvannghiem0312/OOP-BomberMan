@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    // Maybe not need
     [Header("Players")]
     public GameObject[] Players;
 
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
             scoreHard *= 2;
         }
     }
-    public string CheckWinWithPlayer()
+    public bool CheckLose()
     {
         int countPlayer = 0;
         for(int i = 0; i < Players.Length; i++)
@@ -41,24 +42,14 @@ public class GameManager : MonoBehaviour
                 countPlayer++;
             }
         }
-        if(countPlayer <= 1 && Players[0].activeSelf)
-        {
-            return "P1";
-        }
-        else if(countPlayer <= 1 && Players[1].activeSelf)
-        {
-            return "P2";
-        }
-        return "";
-    }
-    
-    public bool CheckWinWithBoss()
-    {
-        if(FindObjectsOfType<EnemyController>().Length == 0)
+        if(countPlayer == 0)
         {
             return true;
         }
-        return false;
+        else
+        {
+            return false;
+        }
     }
     private void SummonEnemy()
     {

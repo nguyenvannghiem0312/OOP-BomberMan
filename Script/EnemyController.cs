@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
     public AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
 
+    private bool isEnemy;
     private SoundManage sound;
     private UI ui;
     private void Awake()
@@ -47,6 +48,12 @@ public class EnemyController : MonoBehaviour
         AnimatedSprite spriteRendererChange = spriteRendererStart;
         spriteRendererStart = spriteRendererEnd;
         spriteRendererEnd = spriteRendererChange;
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            isEnemy = true;
+            Death();
+        }
     }
     public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {
@@ -79,16 +86,16 @@ public class EnemyController : MonoBehaviour
     }
     private void OnDeath()
     {
-        IncreScore();
-        
-        gameObject.SetActive(false);
-        if (FindObjectOfType<GameManager>().CheckWinWithBoss() == true)
+        if (!isEnemy)
         {
-            sound.PlayAudioClip(sound.audioWin);
-
-            ui.ShowPanel(ui.PanelWin, true);
-            Time.timeScale = 0;
+            IncreScore();
         }
+        else
+        {
+            isEnemy = false;
+        }
+
+        gameObject.SetActive(false);
     }
     private void IncreScore()
     {
@@ -96,9 +103,21 @@ public class EnemyController : MonoBehaviour
         {
             ui.SetScore(10);
         }
-        else
+        else if(gameObject.GetComponent<EnemyController>().speed == 5)
         {
             ui.SetScore(20);
+        }
+        else if(gameObject.GetComponent<EnemyController>().speed == 7)
+        {
+            ui.SetScore(30);
+        }
+        else if (gameObject.GetComponent<EnemyController>().speed == 12)
+        {
+            ui.SetScore(40);
+        }
+        else if(gameObject.GetComponent<EnemyController>().speed == 15)
+        {
+            ui.SetScore(50);
         }
     }
 }

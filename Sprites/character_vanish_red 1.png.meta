@@ -1,0 +1,2708 @@
+fileFormatVersion: 2
+guid: c18c29c3e32374745b577b66b7f673a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_vanish_red 1_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 309
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233a059a25a2aed4ea176346de0629dd
+      internalID: -1657264461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe9ccf8aa1110c4eb7bc03357b48fbd
+      internalID: -1520552633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 316
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee533462227b55d488e59a5042109e45
+      internalID: -152865256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 316
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b24e4bf73d75642acc0474d1eadc7a
+      internalID: -1012929660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 316
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404e5b0b1994f4d49a5b0a786a9792ef
+      internalID: 483520270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_5
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 309
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9784a2753e08edf4f99841c886a5624a
+      internalID: -1381132747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_6
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 309
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bacfd09e65be0d4188f794af26101d5
+      internalID: -57973774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_7
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 309
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436f02ce086cf33428bb83d6b41f6000
+      internalID: 1125689365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_8
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 316
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648447f8c4ede0446b3e7fc7cc23abca
+      internalID: -2082446672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_9
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 316
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd3653bf954294e96b2fdfb906fc0d
+      internalID: 2142618878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_10
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 316
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953d6686ae2ee1499691641583f19b4
+      internalID: 343961731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 163
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6016e2ef2d4143b02b8d51922dce7
+      internalID: -463066365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 163
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c639c25258cc8841abe1f3cc3128734
+      internalID: -82481899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_13
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 171
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e288e9d8264d54fb7c6d191964caa5
+      internalID: 997258106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 171
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2148a0db7fd320046b3214819e6d40aa
+      internalID: -898982550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 171
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215fea2f409ab93469ac0745e5c1c7e9
+      internalID: -410623266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_16
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 171
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a51256d688c04caf3d880af52d411
+      internalID: 1003211806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_17
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 190
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394a3216fe620944ba8bdbb8e7ff5cf
+      internalID: -2593627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_18
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 190
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57f4dec9b4819f4396c8c5535785e10
+      internalID: 1171259827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_19
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 221
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efc1e6ec932cd94595543b7d577788d
+      internalID: 1113684824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_20
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 219
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df19e2cc3da24d43a4266a246017dcf
+      internalID: -176063205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_21
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 222
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96698e8ac3520854eb25a07adf6b7870
+      internalID: 1960923794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_22
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 219
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e454efae5eaca4299ca09e042a0366
+      internalID: -799680230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_23
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 229
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ec18752641eb43bd3c7b8294e1a61
+      internalID: -74122626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_24
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 220
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad65816415bf4841b49f4808c0fec99
+      internalID: 1726050393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_25
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 196
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7ee22342d17954a817728e90048de3
+      internalID: -631804711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_26
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 193
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff091aac4cfde48a7349106077ef72
+      internalID: 851485536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_27
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 206
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b16f9bd98e0b4188e23b0a572712e
+      internalID: 1571157881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_28
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 194
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed4629e277f4c94da6f9fb7cfff22e0
+      internalID: -473784857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_29
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 195
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786d3e2c5c8b7443b951439f1495d2b
+      internalID: 833175893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_30
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be51736f7956d04cac8d17e19ffbb80
+      internalID: 1383463162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_31
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 194
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f84f0612e6e4c4f92026defb7afae8
+      internalID: -1072432938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_32
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 194
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2851ae1a9c754284bb459ffc317d3148
+      internalID: 1536539791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_33
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 207
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6327f9688ae276f49bd9db018c51ea48
+      internalID: -822066381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_34
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 193
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af94e25c0ee0384092a932039b60a5e
+      internalID: 828422092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_35
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 197
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d369982acba225649966beaa12c2be5e
+      internalID: 858755513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_36
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 190
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c8eca96e676b4b9fbe06b1bfbcb02
+      internalID: -597818492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_37
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889deba6193545040896e4625e315b2e
+      internalID: 339874948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_38
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362f9df9d21b10448b372170e15ebbb
+      internalID: -247970244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_39
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 198
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028661648d585d47822cd15e20e7d57
+      internalID: 63763940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_40
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 191
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e66dba6b1ee37447affaa063efe23ee
+      internalID: -68347592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_41
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 171
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338b70bdde81431409e75c241851f1b6
+      internalID: 292112699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_42
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 171
+        width: 66
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76faacf4300af0e4a809a81ff3403b2a
+      internalID: -858004331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_43
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 183
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6143703257648d64eb9283199c3104fa
+      internalID: 1388382804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_44
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 171
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd4b538172f4643a646efc3ea1cc20
+      internalID: 2103731712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_45
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 183
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48e732b87842134a9308858684e8365
+      internalID: -1732132550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_46
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed6f39336d44ce4e9881c0c42c9f426
+      internalID: -1153041532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_47
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 183
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fda9d08eb44f345b08dbb51c3ae988
+      internalID: -1591410290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_48
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 174
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae5fac5f0f50e04c825b51877348013
+      internalID: 1899088512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_49
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 171
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b69461d8098424d88b171b500ceff2
+      internalID: -1345243994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_50
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 184
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0437e90d6e616624999432ce5b7a9316
+      internalID: -1954790210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_51
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 174
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f478b267a96d754794f260cf73699d8
+      internalID: -976120683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_52
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 171
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02965eff6e667d468f0b09a8913b297
+      internalID: -1592609019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_53
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 171
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1805b5c8533f824598a8969b4f3d0f5
+      internalID: -1213432650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_54
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 171
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fa5d70d9b5d82419630c06d675ad7d
+      internalID: -1946088888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_55
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 171
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ec6e09980e6848ad38d7868355fc0
+      internalID: -1318145245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_56
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 85
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac56c6b299fbaf448c3561835432b6e
+      internalID: 1424723085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_57
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 92
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63df011a064ea43825dd045da41ec1
+      internalID: 449970385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd95b4b864288464d8081e6a3f3e800a
+      internalID: 773393183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_59
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 76
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a631d8593f8ce4a863c3f5282b06b3
+      internalID: 599470573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_60
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 76
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42153581051a6e54d924eae0260b3051
+      internalID: -1187478793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_61
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 76
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889bdb34f15e9a943a15782e76b44be7
+      internalID: 1613223919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_62
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f02c5bbdd275409f41d7f4f97055d
+      internalID: -1404671586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e12c16d36e1c0548aeefdc05347713d
+      internalID: 856973733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_64
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 77
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f199b0b6a39b19647b8679469359da16
+      internalID: -1836147069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_65
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 77
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4a1f7866ba2324bb9505de64f0f349
+      internalID: -1425093180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_66
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 65
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032d1b3bbd8583743affcd5301379309
+      internalID: -16861172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_67
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 78
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b65207722d2ca843afd10674fb5f34d
+      internalID: 647216897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_68
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bb273aadcd0244aa8ca4d0af23dbac
+      internalID: -1989028040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_69
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 47
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b6ccf9fcdd98744b8bf4636c6ca57d
+      internalID: 314826966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_70
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 52
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eb59ffbbbb9e24cbfaa887bc02dd3c
+      internalID: -361259695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_71
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 51
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f0d4041f2e7643b2d709cdc4ceec2
+      internalID: 610697565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_72
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 62
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb44b62ec3fe243aae951c3474459f
+      internalID: 30074304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_73
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95c8121f2b9ba47823223f34055194
+      internalID: -228682500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_74
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38840f14fe8df3f448824ff600752e60
+      internalID: 2075075772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_75
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ac03a0c21e814c98d9a8507fefe00
+      internalID: -291043168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_76
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 63
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1a5544bcc50b24f82335f7e3a0d2ab
+      internalID: 2131027840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_77
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 64
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5fbb2a23e83b442ac650dfbc3b5871
+      internalID: -65037593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_78
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 49
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c767b933c3674ebbc1790313456c6
+      internalID: 160611335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_79
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbc8e91c8cd3b44aa0b28496d2a3abd
+      internalID: -416048180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_80
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d5671d3b96c64da63bc204739550e
+      internalID: 447663803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_81
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f669ed743f218845a56339bc2bed772
+      internalID: -282080783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_82
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff1b26639a0ac9498c30c4dd3274aab
+      internalID: 685298085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_83
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62653c5d61bc0f4d9e1b18d52035d9a
+      internalID: -321266589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_84
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 54
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d62047ab91605449f46110350a8ace
+      internalID: -457524104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_85
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 55
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48c0a283292e6b45a3580203bc46eef
+      internalID: 284486152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_86
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 31
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d85ffb7a258ad41a5d9ce1d220fdff
+      internalID: -461021594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_87
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9511c7db9a24cc94383cec638e09cdb8
+      internalID: -1234765477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_88
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f6d5958be14547a14280979aa8d45
+      internalID: -592643070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_89
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6202708b2a662c646a8f80c711ee809a
+      internalID: 904137763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_90
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07191da4c2550854aba7db8c52e16461
+      internalID: 1548105083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_91
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb988e49599f34469679644777ef665
+      internalID: 2012317903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_92
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5595083568b64db18cc8486af3655
+      internalID: 1812975161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_93
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 48
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8382ac1f004458e428116a51bf46237c
+      internalID: -2269495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_94
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 49
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6800036a45bcb4095159c121dd8e45
+      internalID: 1980435380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_95
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 33
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472c909a4460aea4bb95c514961134a4
+      internalID: -431610058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_96
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 26
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64b61aa390c174e8a5569574823372
+      internalID: 2063326768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_97
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e30267591af643926b4b4b42af1d3
+      internalID: -1155883739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_98
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 30
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c40b16d29db2064489bd7fcabe13918
+      internalID: -679400851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_99
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d4128986b6d249aa61c6cf0e99694
+      internalID: 170119437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 30
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1cdb680cf19684da9a8b90388e8b54
+      internalID: 515096460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_101
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca338eff475280478fc424f84f332e4
+      internalID: -175824682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_102
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fd958083b73f64ba09215b7f32ac6c
+      internalID: -905930899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_103
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee900369e38d2ff42ad67b078db2a06f
+      internalID: -555264134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_104
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c648797ab4a74390c8594c5115fff
+      internalID: -1542393621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_105
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 40
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764641028ec2b77428f63140c2bc72fe
+      internalID: 1029657885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_106
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a3872b113ed2d46bb18fa1d3fbdcaa
+      internalID: 1350911487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_107
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 31
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8350297255c57c4ca285be472e83950
+      internalID: 596104373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_108
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 26
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad37ccc5bbbf2974bbd7858abb21c621
+      internalID: 1967744109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_109
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 25
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924a24aaadef0ce49a05d82a31c4e70a
+      internalID: -264424399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_110
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 24
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227e088835f10f84b808b265bc72d017
+      internalID: 93436557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_111
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03359b913505a764ca38d07e145e1d7f
+      internalID: 197171502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_112
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 31
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5f620917bd9b4095d1ce74134b0b6
+      internalID: -636307587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_113
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 31
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf324717e12334aad0076a47a947ba
+      internalID: -1737600680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_114
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e92c1743bc9eba4e9d871f08765621b
+      internalID: 155552857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_115
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 27
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f642bbcbada3b4b469fc9ace5d2ff20d
+      internalID: 914318914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_vanish_red 1_116
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 20
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cfdbe61ae2d894ca67d040acd703f9
+      internalID: 1912026953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      character_vanish_red 1_112: -636307587
+      character_vanish_red 1_1: -1520552633
+      character_vanish_red 1_89: 904137763
+      character_vanish_red 1_108: 1967744109
+      character_vanish_red 1_106: 1350911487
+      character_vanish_red 1_44: 2103731712
+      character_vanish_red 1_41: 292112699
+      character_vanish_red 1_62: -1404671586
+      character_vanish_red 1_30: 1383463162
+      character_vanish_red 1_9: 2142618878
+      character_vanish_red 1_84: -457524104
+      character_vanish_red 1_83: -321266589
+      character_vanish_red 1_71: 610697565
+      character_vanish_red 1_50: -1954790210
+      character_vanish_red 1_51: -976120683
+      character_vanish_red 1_66: -16861172
+      character_vanish_red 1_109: -264424399
+      character_vanish_red 1_59: 599470573
+      character_vanish_red 1_43: 1388382804
+      character_vanish_red 1_53: -1213432650
+      character_vanish_red 1_21: 1960923794
+      character_vanish_red 1_92: 1812975161
+      character_vanish_red 1_87: -1234765477
+      character_vanish_red 1_94: 1980435380
+      character_vanish_red 1_81: -282080783
+      character_vanish_red 1_115: 914318914
+      character_vanish_red 1_35: 858755513
+      character_vanish_red 1_4: 483520270
+      character_vanish_red 1_101: -175824682
+      character_vanish_red 1_91: 2012317903
+      character_vanish_red 1_28: -473784857
+      character_vanish_red 1_73: -228682500
+      character_vanish_red 1_38: -247970244
+      character_vanish_red 1_57: 449970385
+      character_vanish_red 1_70: -361259695
+      character_vanish_red 1_32: 1536539791
+      character_vanish_red 1_96: 2063326768
+      character_vanish_red 1_27: 1571157881
+      character_vanish_red 1_10: 343961731
+      character_vanish_red 1_2: -152865256
+      character_vanish_red 1_67: 647216897
+      character_vanish_red 1_52: -1592609019
+      character_vanish_red 1_17: -2593627
+      character_vanish_red 1_90: 1548105083
+      character_vanish_red 1_6: -57973774
+      character_vanish_red 1_86: -461021594
+      character_vanish_red 1_110: 93436557
+      character_vanish_red 1_82: 685298085
+      character_vanish_red 1_77: -65037593
+      character_vanish_red 1_20: -176063205
+      character_vanish_red 1_36: -597818492
+      character_vanish_red 1_29: 833175893
+      character_vanish_red 1_114: 155552857
+      character_vanish_red 1_24: 1726050393
+      character_vanish_red 1_102: -905930899
+      character_vanish_red 1_15: -410623266
+      character_vanish_red 1_98: -679400851
+      character_vanish_red 1_72: 30074304
+      character_vanish_red 1_46: -1153041532
+      character_vanish_red 1_116: 1912026953
+      character_vanish_red 1_45: -1732132550
+      character_vanish_red 1_74: 2075075772
+      character_vanish_red 1_85: 284486152
+      character_vanish_red 1_19: 1113684824
+      character_vanish_red 1_3: -1012929660
+      character_vanish_red 1_100: 515096460
+      character_vanish_red 1_13: 997258106
+      character_vanish_red 1_26: 851485536
+      character_vanish_red 1_63: 856973733
+      character_vanish_red 1_49: -1345243994
+      character_vanish_red 1_8: -2082446672
+      character_vanish_red 1_48: 1899088512
+      character_vanish_red 1_113: -1737600680
+      character_vanish_red 1_61: 1613223919
+      character_vanish_red 1_60: -1187478793
+      character_vanish_red 1_105: 1029657885
+      character_vanish_red 1_76: 2131027840
+      character_vanish_red 1_39: 63763940
+      character_vanish_red 1_97: -1155883739
+      character_vanish_red 1_0: -1657264461
+      character_vanish_red 1_33: -822066381
+      character_vanish_red 1_40: -68347592
+      character_vanish_red 1_111: 197171502
+      character_vanish_red 1_68: -1989028040
+      character_vanish_red 1_55: -1318145245
+      character_vanish_red 1_79: -416048180
+      character_vanish_red 1_7: 1125689365
+      character_vanish_red 1_99: 170119437
+      character_vanish_red 1_12: -82481899
+      character_vanish_red 1_54: -1946088888
+      character_vanish_red 1_31: -1072432938
+      character_vanish_red 1_22: -799680230
+      character_vanish_red 1_78: 160611335
+      character_vanish_red 1_56: 1424723085
+      character_vanish_red 1_69: 314826966
+      character_vanish_red 1_14: -898982550
+      character_vanish_red 1_18: 1171259827
+      character_vanish_red 1_95: -431610058
+      character_vanish_red 1_16: 1003211806
+      character_vanish_red 1_37: 339874948
+      character_vanish_red 1_64: -1836147069
+      character_vanish_red 1_23: -74122626
+      character_vanish_red 1_88: -592643070
+      character_vanish_red 1_107: 596104373
+      character_vanish_red 1_42: -858004331
+      character_vanish_red 1_75: -291043168
+      character_vanish_red 1_11: -463066365
+      character_vanish_red 1_65: -1425093180
+      character_vanish_red 1_80: 447663803
+      character_vanish_red 1_93: -2269495
+      character_vanish_red 1_34: 828422092
+      character_vanish_red 1_58: 773393183
+      character_vanish_red 1_5: -1381132747
+      character_vanish_red 1_47: -1591410290
+      character_vanish_red 1_104: -1542393621
+      character_vanish_red 1_25: -631804711
+      character_vanish_red 1_103: -555264134
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

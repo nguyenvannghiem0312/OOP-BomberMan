@@ -9,9 +9,6 @@ public class MoveController : MonoBehaviour
     public float maxSpeed = 6.5f;
     public float speed = 5f;
     public int HP = 1;
-
-    [Header("State")]
-    public bool isBoss = false;
    
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -33,10 +30,12 @@ public class MoveController : MonoBehaviour
 
     private UI ui;
     private SoundManage sound;
+    private GameManager gameManager;
     private void Awake()
     {
         sound = FindObjectOfType<SoundManage>();
         ui = FindObjectOfType<UI>();
+        gameManager = FindObjectOfType<GameManager>();
         rigibody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
     }
@@ -134,21 +133,10 @@ public class MoveController : MonoBehaviour
     {
         sound.PlayAudioClip(sound.audioDeath);
         gameObject.SetActive(false);
-        if (isBoss)
+        if(gameManager.CheckLose() == true)
         {
-            ui.ShowPanel(ui.PanelLose, true);
             Time.timeScale = 0;
-        }
-        else
-        {
-            if(FindObjectOfType<GameManager>().CheckWinWithPlayer() == "P1")
-            {
-                ui.ShowPanel(ui.PanelWin, true);
-            }
-            else
-            {
-                ui.ShowPanel(ui.PanelLose, true);
-            }
+            ui.ShowPanel(ui.PanelEndGame, true);
         }
     }
     private void OnRevival()
