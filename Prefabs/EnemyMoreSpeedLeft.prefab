@@ -290,8 +290,8 @@ MonoBehaviour:
   directionStart: {x: -1, y: 0}
   directionEnd: {x: 1, y: 0}
   speed: 12
-  spriteRendererStart: {fileID: 4728876842276724999}
-  spriteRendererEnd: {fileID: 4728876840548689360}
+  spriteRendererStart: {fileID: 4728876840548689360}
+  spriteRendererEnd: {fileID: 4728876842276724999}
   spriteRendererDeath: {fileID: 4728876841292354032}
 --- !u!58 &4728876842092256090
 CircleCollider2D:
