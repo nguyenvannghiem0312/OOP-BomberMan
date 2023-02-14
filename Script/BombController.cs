@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 using UnityEngine.Tilemaps;
 
 public class BombController : MonoBehaviour
 {
     [Header("Bomb")]
-    public int maxBomb = 5;
+    [SerializeField] private int maxBomb;
     public float bombFuseTime = 3f;
     public int bombAmount = 1;
     private int bombsRemaining;
@@ -17,7 +18,7 @@ public class BombController : MonoBehaviour
     public KeyCode inputKey = KeyCode.Space;
 
     [Header("Explosion Radius")]
-    public int maxRadius = 5;
+    [SerializeField] private int maxRadius;
     public int explosionRadius = 2;
     public float explosionDuration = 1f;
     public Explosion explosionPrefabs;
@@ -29,9 +30,19 @@ public class BombController : MonoBehaviour
 
     private SoundManage sound;
     private UI ui;
-
+    public int MaxBomb
+    {
+        set { maxBomb = value; }
+        get { return maxBomb; }
+    }
+    public int MaxRadius
+    {
+        set { maxRadius = value; }
+        get { return maxRadius; }
+    }
     private void OnEnable()
     {
+        UpdateInformation();
         ui = FindObjectOfType<UI>();
         sound = FindObjectOfType<SoundManage>();
         bombsRemaining = bombAmount;
@@ -46,6 +57,26 @@ public class BombController : MonoBehaviour
     public int SetBombRemaining
     {
         set { bombsRemaining = value; }
+    }
+    private void UpdateInformation()
+    {
+        string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
+        foreach (string line in File.ReadLines(pathInformationPlayer))
+        {
+            string name = line.Split("\t")[0];
+
+            switch (name)
+            {
+                case "MaxBomb":
+                    MaxBomb = int.Parse(line.Split("\t")[1]);
+                    break;
+                case "MaxRadius":
+                    MaxRadius = int.Parse(line.Split("\t")[1]);
+                    break;
+                default:
+                    break;
+            }
+        }
     }
     private IEnumerator PlaceBomb()
     {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class Destructible : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Destructible : MonoBehaviour
     public GameObject[] spawnableItems;
     void Start()
     {
+        UpdateInformation();
         Destroy(gameObject, destructibleTime);
     }
 
@@ -19,6 +21,23 @@ public class Destructible : MonoBehaviour
         {
             int randomIndex = Random.Range(0, spawnableItems.Length);
             Instantiate(spawnableItems[randomIndex], transform.position, Quaternion.identity);
+        }
+    }
+    private void UpdateInformation()
+    {
+        string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
+        foreach (string line in File.ReadLines(pathInformationPlayer))
+        {
+            string name = line.Split("\t")[0];
+
+            switch (name)
+            {
+                case "RatioItem":
+                    itemSpawnChance = int.Parse(line.Split("\t")[1]);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

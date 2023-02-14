@@ -22,7 +22,7 @@ public class ItemPickup : MonoBehaviour
         switch (type)
         {
             case ItemType.TymItem:
-                if(player.GetComponent<MoveController>().HP < player.GetComponent<MoveController>().maxHP)
+                if(player.GetComponent<MoveController>().HP < player.GetComponent<MoveController>().MaxHP)
                 {
                     player.GetComponent<MoveController>().HP++;
                 }   
@@ -33,14 +33,14 @@ public class ItemPickup : MonoBehaviour
                 break;
 
             case ItemType.FlameItem:
-                if (player.GetComponent<BombController>().explosionRadius < player.GetComponent<BombController>().maxRadius)
+                if (player.GetComponent<BombController>().explosionRadius < player.GetComponent<BombController>().MaxRadius)
                 {
                     player.GetComponent<BombController>().explosionRadius++;
                 }
                 break;
 
             case ItemType.SpeedItem:
-                if (player.GetComponent<MoveController>().speed < player.GetComponent<MoveController>().maxSpeed)
+                if (player.GetComponent<MoveController>().speed < player.GetComponent<MoveController>().MaxSpeed)
                 {
                     player.GetComponent<MoveController>().speed += 0.5f;
                 }

@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using UnityEngine.UI;
 public class MoveController : MonoBehaviour
 {
     [Header("Speed and HP")]
-    public int maxHP = 5;
-    public float maxSpeed = 7f;
+    [SerializeField] private int maxHP;
+    [SerializeField] private float maxSpeed;
     public float speed = 5f;
     public int HP = 1;
-   
+
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
     public KeyCode inputDown = KeyCode.S;
@@ -31,15 +32,25 @@ public class MoveController : MonoBehaviour
     private UI ui;
     private SoundManage sound;
     private GameManager gameManager;
-    private void Awake()
+    public int MaxHP
     {
+        set { maxHP = value; }
+        get { return maxHP; }
+    }
+    public float MaxSpeed
+    {
+        set { maxSpeed = value; }
+        get { return maxSpeed; }
+    }
+    private void OnEnable()
+    {
+        UpdateInformation();
         sound = FindObjectOfType<SoundManage>();
         ui = FindObjectOfType<UI>();
         gameManager = FindObjectOfType<GameManager>();
         rigibody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
     }
-
     private void Update()
     {
         ui.SetHP(HP);
@@ -69,6 +80,26 @@ public class MoveController : MonoBehaviour
         Vector2 position = rigibody.position;
         Vector2 translation = direction * speed * Time.deltaTime;
         rigibody.MovePosition(position + translation); 
+    }
+    private void UpdateInformation()
+    {
+        string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
+        foreach (string line in File.ReadLines(pathInformationPlayer))
+        {
+            string name = line.Split("\t")[0];
+
+            switch (name)
+            {
+                case "MaxHP":
+                    MaxHP = int.Parse(line.Split("\t")[1]);
+                    break;
+                case "MaxSpeed":
+                    MaxSpeed = float.Parse(line.Split("\t")[1]);
+                    break;
+                default:
+                    break;
+            }
+        }
     }
     public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {

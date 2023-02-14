@@ -18,9 +18,9 @@ public class SaveMap : MonoBehaviour
 
     private void Awake()
     {
-        pathGrid = Application.dataPath + "/Resources/DataGrid.txt";
-        pathEnemy = Application.dataPath + "/Resources/DataEnemy.txt";
-        pathPlayer = Application.dataPath + "/Resources/DataPlayer.txt";
+        pathGrid = Application.dataPath + "/Resources/SaveGrid.txt";
+        pathEnemy = Application.dataPath + "/Resources/SaveEnemy.txt";
+        pathPlayer = Application.dataPath + "/Resources/SavePlayer.txt";
         if (UI.isLoadMap == true)
         {
             LoadMap();

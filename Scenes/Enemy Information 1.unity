@@ -3089,7 +3089,6 @@ MonoBehaviour:
   PanelLose: {fileID: 0}
   PanelSetting: {fileID: 0}
   PanelEndGame: {fileID: 0}
-  PanelQuestion: {fileID: 0}
   numBomb: {fileID: 0}
   numHP: {fileID: 0}
   score: {fileID: 0}

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Maybe not need
     [Header("Players")]
     public GameObject[] Players;
 
