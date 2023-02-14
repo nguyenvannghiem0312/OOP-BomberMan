@@ -1,5 +1,5 @@
-MaxHP	15
-MaxSpeed	15
-MaxBomb	15
-MaxRadius	15
-RatioItem	1
+MaxHP	5
+MaxSpeed	7
+MaxBomb	5
+MaxRadius	5
+RatioItem	0,2
