@@ -18,7 +18,7 @@ public class HighScoreTable : MonoBehaviour
 
         entryTemplate.gameObject.SetActive(false);
         float templateHeight = 30f;
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < (highScores.Count > 11 ? 11 : highScores.Count); i++)
         {
             Transform entryTransform = Instantiate(entryTemplate, entryContainer);
             RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();
@@ -33,13 +33,20 @@ public class HighScoreTable : MonoBehaviour
 
     public void ReadScore()
     {
-        string path = Application.dataPath + "/Resources/Data.txt";
+        string path = Application.dataPath + "/Resources/Score.txt";
         foreach (string line in File.ReadLines(path))
         {
-            if(line != "")
+            try
             {
-                highScores.Add(new HighScore { score = int.Parse(line.Split("\t\t")[1]), name = line.Split("\t\t")[0] });
-            }       
+                if (line != "")
+                {
+                    highScores.Add(new HighScore { score = int.Parse(line.Split("\t\t")[1]), name = line.Split("\t\t")[0] });
+                }
+            }
+            catch
+            {
+
+            }
         }
         highScores.Sort((x, y) => y.score.CompareTo(x.score));
         for (int i = 10; i < highScores.Count; i++)

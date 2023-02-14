@@ -43,6 +43,10 @@ public class BombController : MonoBehaviour
             StartCoroutine(PlaceBomb());    
         }
     }
+    public int SetBombRemaining
+    {
+        set { bombsRemaining = value; }
+    }
     private IEnumerator PlaceBomb()
     {
         Vector2 position = transform.position;

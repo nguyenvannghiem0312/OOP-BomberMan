@@ -1,0 +1,7 @@
+EnemyMaxSpeedLeft	-2,181348	3	0
+EnemySpeedLeft	-7,728415	-5	0
+EnemyBaseUp	10	2,92355	0
+EnemyMaxSpeedLeft	-0,1861723	-1	0
+EnemySpeedUp	12	-4,044498	0
+EnemyBaseUp	8	2,991549	0
+NumEnemy	6

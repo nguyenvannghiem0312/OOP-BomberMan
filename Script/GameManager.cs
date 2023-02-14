@@ -11,10 +11,12 @@ public class GameManager : MonoBehaviour
     [Header("Enemys")]
     public GameObject[] EnemysPrefabs;
     public int numEnemy;
-    public int scoreHard = 200;
-    
+    public int scoreHard = 400;
+
+    public LayerMask summonLayerMask;
+
     private UI ui;
-    private void Start()
+    private void Awake()
     {
         numEnemy = FindObjectsOfType<EnemyController>().Length;
         ui = FindObjectOfType<UI>();
@@ -28,7 +30,7 @@ public class GameManager : MonoBehaviour
     {
         if(ui.GetScore() / scoreHard > 0)
         {
-            numEnemy += 2 * ui.GetScore() / scoreHard;
+            numEnemy += 1;
             scoreHard *= 2;
         }
     }
@@ -61,9 +63,18 @@ public class GameManager : MonoBehaviour
                 x = Random.Range(-12, 12);
                 y = Random.Range(-5, 5);
             }
-            while (x % 2 != 0 || y % 2 == 0);
+            while (x % 2 != 0 || y % 2 == 0 || !CheckPos(new Vector2(x, y)));
             int index = Random.Range(0, EnemysPrefabs.Length);
             Instantiate(EnemysPrefabs[index], new Vector3(x, y, 0), Quaternion.identity);
         }
+    }
+
+    private bool CheckPos(Vector2 position)
+    {
+        if (Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, summonLayerMask))
+        {
+            return false;
+        }
+        return true;
     }
 }

@@ -1,0 +1,28 @@
+Nghiem		2000
+Hai		3000
+Phuc		5000
+Bao Anh		1500
+Sy Huan		1000
+Quan		10
+Hao		20
+Kien		30
+Thang		50
+Vuong		100
+Nghiem		0
+Nghiem		0
+Nghiem		250
+Long		0
+Hao		0
+Hao		230
+Nghiem		870
+Hai		510
+Son jong ki		190
+		30
+		0
+		0
+		0
+Hai3k		210
+		0
+Nghiemm		340
+		0
+		10

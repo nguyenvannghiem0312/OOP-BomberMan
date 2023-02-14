@@ -1,0 +1,6 @@
+Player	1,930367	5,099375	0
+Score	60
+HP	1
+Bomb	3
+Speed	6
+Radius	1

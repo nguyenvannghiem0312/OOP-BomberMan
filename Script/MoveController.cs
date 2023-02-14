@@ -6,7 +6,7 @@ public class MoveController : MonoBehaviour
 {
     [Header("Speed and HP")]
     public int maxHP = 5;
-    public float maxSpeed = 6.5f;
+    public float maxSpeed = 7f;
     public float speed = 5f;
     public int HP = 1;
    

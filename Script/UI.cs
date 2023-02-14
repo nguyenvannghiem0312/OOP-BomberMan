@@ -11,6 +11,7 @@ public class UI : MonoBehaviour
     public GameObject PanelLose; // Maybe not need
     public GameObject PanelSetting;
     public GameObject PanelEndGame;
+    public GameObject PanelQuestion;
 
     [Header("Number HP and Bomb")]
     public Text numBomb;
@@ -22,6 +23,7 @@ public class UI : MonoBehaviour
     [Header("Input Name")]
     public InputField saveName;
 
+    static public bool isLoadMap = false;
     public void ChangeScene(int SceneID)
     {
         Time.timeScale = 1;
@@ -72,6 +74,15 @@ public class UI : MonoBehaviour
 
     public string GetName()
     {
-        return saveName.text + "\t\t" + score.text.Remove(0, 7);
+        return saveName.text.Replace("\t", " ") + "\t\t" + score.text.Remove(0, 7);
+    }
+    public void ShowQuestionSave()
+    {
+        ShowPanel(PanelSetting, false);
+        ShowPanel(PanelQuestion, true);
+    }
+    public void LoadMap()
+    {
+        isLoadMap = true;
     }
 }

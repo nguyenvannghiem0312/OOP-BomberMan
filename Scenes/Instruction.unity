@@ -2493,7 +2493,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shift
+  m_Text: Backspace
 --- !u!222 &688819232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2773,7 +2773,7 @@ GameObject:
   - component: {fileID: 936932179}
   - component: {fileID: 936932178}
   m_Layer: 5
-  m_Name: Shift
+  m_Name: Backspace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4030,6 +4030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TymItem
       objectReference: {fileID: 0}
+    - target: {fileID: 6107089765527919351, guid: 03d0bb01d48693b4c9e9077307138e60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03d0bb01d48693b4c9e9077307138e60, type: 3}
 --- !u!1 &1491998241
@@ -4161,6 +4165,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6376161635496133745, guid: d59c67028388afb45bb9b8f64c597def, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6376161635496133747, guid: d59c67028388afb45bb9b8f64c597def, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4856,6 +4864,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3970325690138774598, guid: 9848ebe3462a9ff42a653e1f8971c0db, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3970325690138774599, guid: 9848ebe3462a9ff42a653e1f8971c0db, type: 3}
       propertyPath: m_Name
       value: BombItem
@@ -4949,6 +4961,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 705685902711147381, guid: d62dee18eaf1b1d4b945093c26c36f4a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 705685902711147383, guid: d62dee18eaf1b1d4b945093c26c36f4a, type: 3}
       propertyPath: m_Name
       value: SpeedItem

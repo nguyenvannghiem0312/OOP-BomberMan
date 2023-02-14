@@ -5754,7 +5754,10 @@ MonoBehaviour:
   - {fileID: 4728876842092256089, guid: b5c5e1657be3b394abe76b481476793a, type: 3}
   - {fileID: 2827482528035146245, guid: fe664131f30832943a0e4267abf862dd, type: 3}
   numEnemy: 0
-  scoreHard: 200
+  scoreHard: 400
+  summonLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!4 &477040212
 Transform:
   m_ObjectHideFlags: 0
@@ -11607,7 +11610,7 @@ MonoBehaviour:
   bombFuseTime: 1
   bombAmount: 1
   bombPrefabs: {fileID: 523401565767203137, guid: 24e9d135da56cd846b8352a5abd1bb7b, type: 3}
-  inputKey: 303
+  inputKey: 8
   maxRadius: 5
   explosionRadius: 1
   explosionDuration: 1

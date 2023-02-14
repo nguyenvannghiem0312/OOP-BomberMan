@@ -187,11 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892280ef951808f4e97668d71f372fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionStart: {x: 1, y: 0}
-  directionEnd: {x: -1, y: 0}
+  directionStart: {x: -1, y: 0}
+  directionEnd: {x: 1, y: 0}
   speed: 15
-  spriteRendererStart: {fileID: 6261571918379888329}
-  spriteRendererEnd: {fileID: 6261571920141511198}
+  spriteRendererStart: {fileID: 6261571920141511198}
+  spriteRendererEnd: {fileID: 6261571918379888329}
   spriteRendererDeath: {fileID: 6261571919530483262}
 --- !u!58 &6261571918732416148
 CircleCollider2D:

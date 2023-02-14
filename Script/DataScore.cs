@@ -7,12 +7,10 @@ public class DataScore : MonoBehaviour
 {
     public void WriteScore()
     {
-        string path = Application.dataPath + "/Resources/Data.txt";
+        string path = Application.dataPath + "/Resources/Score.txt";
         StreamWriter writer = new StreamWriter(path, true);
         writer.WriteLine(FindObjectOfType<UI>().GetName());
         writer.Close();
-        StreamReader reader = new StreamReader(path);
-        reader.Close();
         FindObjectOfType<UI>().ChangeScene(0);
     }
     
