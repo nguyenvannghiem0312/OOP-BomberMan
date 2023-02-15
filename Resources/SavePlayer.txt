@@ -1,6 +1,6 @@
-Player	1,930367	5,099375	0
-Score	60
-HP	1
-Bomb	3
-Speed	6
-Radius	1
+Player	-6,053935	0,3835777	0
+Score	320
+HP	3
+Bomb	7
+Speed	6,5
+Radius	7

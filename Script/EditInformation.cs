@@ -54,11 +54,11 @@ public class EditInformation : MonoBehaviour
         pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
         File.WriteAllText(pathInformationPlayer, "");
         StreamWriter writer = new StreamWriter(pathInformationPlayer, true);
-        writer.WriteLine("MaxHP\t" + moveController.GetComponent<MoveController>().MaxHP.ToString() + "\n" +
-                        "MaxSpeed\t" + moveController.GetComponent<MoveController>().MaxSpeed.ToString() + "\n" +
-                        "MaxBomb\t" + bombController.GetComponent<BombController>().MaxBomb.ToString() + "\n" +
-                        "MaxRadius\t" + bombController.GetComponent<BombController>().MaxRadius.ToString() + "\n" +
-                        "RatioItem\t" + Brick.itemSpawnChance.ToString());
+        writer.WriteLine("MaxHP" + "\t" + moveController.GetComponent<MoveController>().MaxHP.ToString());
+        writer.WriteLine("MaxSpeed" + "\t" + moveController.GetComponent<MoveController>().MaxSpeed.ToString());
+        writer.WriteLine("MaxBomb" + "\t" + bombController.GetComponent<BombController>().MaxBomb.ToString());
+        writer.WriteLine("MaxRadius" + "\t" + bombController.GetComponent<BombController>().MaxRadius.ToString());
+        writer.WriteLine("RatioItem" + "\t" + Brick.itemSpawnChance.ToString());
         writer.Close();
     }
     public void LimitItem()
@@ -77,11 +77,11 @@ public class EditInformation : MonoBehaviour
         pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
         File.WriteAllText(pathInformationPlayer, "");
         StreamWriter writer = new StreamWriter(pathInformationPlayer, true);
-        writer.WriteLine("MaxHP\t" + int.Parse(MaxHP.text) + "\n" +
-                        "MaxSpeed\t" + float.Parse(MaxSpeed.text) + "\n" +
-                        "MaxBomb\t" + int.Parse(MaxBomb.text) + "\n" +
-                        "MaxRadius\t" + int.Parse(MaxRadius.text) + "\n" +
-                        "RatioItem\t" + float.Parse(RatioItem.text));
+        writer.WriteLine("MaxHP" + "\t" + int.Parse(MaxHP.text));
+        writer.WriteLine("MaxSpeed" + "\t" + float.Parse(MaxSpeed.text));
+        writer.WriteLine("MaxBomb" + "\t" + int.Parse(MaxBomb.text));
+        writer.WriteLine("MaxRadius" + "\t" + int.Parse(MaxRadius.text));
+        writer.WriteLine("RatioItem" + "\t" + float.Parse(RatioItem.text));
         writer.Close();
     }
 }
