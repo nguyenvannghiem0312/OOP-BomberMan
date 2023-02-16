@@ -9,9 +9,9 @@ public class BombController : MonoBehaviour
 {
     [Header("Bomb")]
     [SerializeField] private int maxBomb;
-    public float bombFuseTime = 3f;
-    public int bombAmount = 1;
-    private int bombsRemaining;
+    [SerializeField] private float bombFuseTime = 3f;
+    [SerializeField] private int bombAmount = 1;
+    [SerializeField] private int bombsRemaining;
     public GameObject bombPrefabs;
 
     [Header("Place Bomb")]
@@ -19,8 +19,8 @@ public class BombController : MonoBehaviour
 
     [Header("Explosion Radius")]
     [SerializeField] private int maxRadius;
-    public int explosionRadius = 2;
-    public float explosionDuration = 1f;
+    [SerializeField] private int explosionRadius = 2;
+    [SerializeField] private float explosionDuration = 1f;
     public Explosion explosionPrefabs;
     public LayerMask explosionLayerMask;
 
@@ -40,10 +40,24 @@ public class BombController : MonoBehaviour
         set { maxRadius = value; }
         get { return maxRadius; }
     }
+    public int BombAmount
+    {
+        get { return bombAmount; }
+        set { bombAmount = value; }
+    }
+    public int SetBombRemaining
+    {
+        set { bombsRemaining = value; }
+    }
+    public int ExplosionRadius
+    {
+        get { return explosionRadius ; }
+        set { explosionRadius = value; }
+    }
     private void OnEnable()
     {
-        UpdateInformation();
         ui = FindObjectOfType<UI>();
+        UpdateInformation();
         sound = FindObjectOfType<SoundManage>();
         bombsRemaining = bombAmount;
     }
@@ -54,24 +68,29 @@ public class BombController : MonoBehaviour
             StartCoroutine(PlaceBomb());    
         }
     }
-    public int SetBombRemaining
-    {
-        set { bombsRemaining = value; }
-    }
+    
     private void UpdateInformation()
     {
         string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
         foreach (string line in File.ReadLines(pathInformationPlayer))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "MaxBomb":
-                    MaxBomb = int.Parse(line.Split("\t")[1]);
+                    MaxBomb = int.Parse(line.Split(";")[1]);
                     break;
                 case "MaxRadius":
-                    MaxRadius = int.Parse(line.Split("\t")[1]);
+                    MaxRadius = int.Parse(line.Split(";")[1]);
+                    break;
+                case "Bomb":
+                    BombAmount = int.Parse(line.Split(";")[1]);
+                    SetBombRemaining = BombAmount;
+                    ui.SetBomb(BombAmount);
+                    break;
+                case "Radius":
+                    ExplosionRadius = int.Parse(line.Split(";")[1]);
                     break;
                 default:
                     break;

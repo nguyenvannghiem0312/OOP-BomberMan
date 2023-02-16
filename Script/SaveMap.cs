@@ -44,7 +44,7 @@ public class SaveMap : MonoBehaviour
         
         for (int i = 0; i < grid.Count; i++)
         {
-            writer.WriteLine(grid[i].tileName + "\t" + grid[i].pos.x + "\t" + grid[i].pos.y + "\t" + grid[i].pos.z);
+            writer.WriteLine(grid[i].tileName + ";" + grid[i].pos.x + ";" + grid[i].pos.y + ";" + grid[i].pos.z);
         }
         writer.Close();
     }
@@ -54,10 +54,10 @@ public class SaveMap : MonoBehaviour
         StreamWriter writer = new StreamWriter(pathEnemy, true);
         foreach (var enemy in FindObjectsOfType<EnemyController>())
         {
-            writer.WriteLine(enemy.name.Replace("(Clone)", "") + "\t" + enemy.GetComponent<Transform>().position.x + "\t" + enemy.GetComponent<Transform>().position.y
-                + "\t" + enemy.GetComponent<Transform>().position.z);
+            writer.WriteLine(enemy.name.Replace("(Clone)", "") + ";" + enemy.GetComponent<Transform>().position.x + ";" + enemy.GetComponent<Transform>().position.y
+                + ";" + enemy.GetComponent<Transform>().position.z);
         }
-        writer.WriteLine("NumEnemy" + "\t" + FindObjectOfType<GameManager>().numEnemy);
+        writer.WriteLine("NumEnemy" + ";" + FindObjectOfType<GameManager>().numEnemy);
         writer.Close();
     }
     private void SavePlayer()
@@ -68,13 +68,13 @@ public class SaveMap : MonoBehaviour
         
         UI ui = FindObjectOfType<UI>();
         BombController bombController = FindObjectOfType<BombController>();
-        writer.WriteLine(player.name + "\t" + player.GetComponent<Transform>().position.x + "\t" + player.GetComponent<Transform>().position.y
-                + "\t" + player.GetComponent<Transform>().position.z);
-        writer.WriteLine("Score" + "\t" + ui.score.text.Remove(0, 7));
-        writer.WriteLine("HP" + "\t" + ui.numHP.text);
-        writer.WriteLine("Bomb" + "\t" + ui.numBomb.text);
-        writer.WriteLine("Speed" + "\t" + player.speed);
-        writer.WriteLine("Radius" + "\t" + bombController.explosionRadius);
+        writer.WriteLine(player.name + ";" + player.GetComponent<Transform>().position.x + ";" + player.GetComponent<Transform>().position.y
+                + ";" + player.GetComponent<Transform>().position.z);
+        writer.WriteLine("Score" + ";" + ui.score.text.Remove(0, 7));
+        writer.WriteLine("HP" + ";" + ui.numHP.text);
+        writer.WriteLine("Bomb" + ";" + ui.numBomb.text);
+        writer.WriteLine("Speed" + ";" + player.Speed);
+        writer.WriteLine("Radius" + ";" + bombController.ExplosionRadius);
         
         writer.Close();
     }
@@ -83,6 +83,7 @@ public class SaveMap : MonoBehaviour
         SaveGrid();
         SaveEnemy();
         SavePlayer();
+        //UI.isSaveMap = true;
         FindObjectOfType<UI>().ChangeScene(0);
     }
     private void LoadGrid()
@@ -90,12 +91,12 @@ public class SaveMap : MonoBehaviour
         tilemap.ClearAllTiles();
         foreach (string line in File.ReadLines(pathGrid))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "Brick":
-                    Vector3Int posLoad = new Vector3Int(int.Parse(line.Split("\t")[1]), int.Parse(line.Split("\t")[2]), int.Parse(line.Split("\t")[3]));
+                    Vector3Int posLoad = new Vector3Int(int.Parse(line.Split(";")[1]), int.Parse(line.Split(";")[2]), int.Parse(line.Split(";")[3]));
                     tilemap.SetTile(posLoad, brick);
                     break;
                 default:
@@ -108,15 +109,15 @@ public class SaveMap : MonoBehaviour
         GameManager gameManager = FindObjectOfType<GameManager>();
         foreach (string line in File.ReadLines(pathEnemy))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "NumEnemy":
-                    gameManager.numEnemy = int.Parse(line.Split("\t")[1]);
+                    gameManager.numEnemy = int.Parse(line.Split(";")[1]);
                     break;
                 default:
-                    Vector3 posEnemyLoad = new Vector3(float.Parse(line.Split("\t")[1]), float.Parse(line.Split("\t")[2]), float.Parse(line.Split("\t")[3]));
+                    Vector3 posEnemyLoad = new Vector3(float.Parse(line.Split(";")[1]), float.Parse(line.Split(";")[2]), float.Parse(line.Split(";")[3]));
                     Instantiate(Array.Find(enemyesLoad, x => x.name == name), posEnemyLoad, Quaternion.identity);
                     break;
             }
@@ -129,30 +130,30 @@ public class SaveMap : MonoBehaviour
         MoveController moveController = FindObjectOfType<MoveController>();
         foreach (string line in File.ReadLines(pathPlayer))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "HP":
-                    moveController.HP = int.Parse(line.Split("\t")[1]);
-                    ui.SetHP(moveController.HP);
+                    moveController.Health = int.Parse(line.Split(";")[1]);
+                    ui.SetHP(moveController.Health);
                     break;
                 case "Bomb":
-                    bombController.bombAmount = int.Parse(line.Split("\t")[1]);
-                    bombController.SetBombRemaining = int.Parse(line.Split("\t")[1]);
-                    ui.SetBomb(bombController.bombAmount);
+                    bombController.BombAmount = int.Parse(line.Split(";")[1]);
+                    bombController.SetBombRemaining = int.Parse(line.Split(";")[1]);
+                    ui.SetBomb(bombController.BombAmount);
                     break;
                 case "Speed":
-                    moveController.speed = float.Parse(line.Split("\t")[1]);
+                    moveController.Speed = int.Parse(line.Split(";")[1]);
                     break;
                 case "Radius":
-                    bombController.explosionRadius = int.Parse(line.Split("\t")[1]);
+                    bombController.ExplosionRadius = int.Parse(line.Split(";")[1]);
                     break;
                 case "Score":
-                    ui.SetScore(int.Parse(line.Split("\t")[1]));
+                    ui.SetScore(int.Parse(line.Split(";")[1]));
                     break;
                 case "Player":
-                    Vector3 posPlayerLoad = new Vector3(float.Parse(line.Split("\t")[1]), float.Parse(line.Split("\t")[2]), float.Parse(line.Split("\t")[3]));
+                    Vector3 posPlayerLoad = new Vector3(float.Parse(line.Split(";")[1]), float.Parse(line.Split(";")[2]), float.Parse(line.Split(";")[3]));
                     moveController.GetComponent<Transform>().position = posPlayerLoad;
                     break;
                 default:

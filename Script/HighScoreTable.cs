@@ -40,7 +40,7 @@ public class HighScoreTable : MonoBehaviour
             {
                 if (line != "")
                 {
-                    highScores.Add(new HighScore { score = int.Parse(line.Split("\t\t")[1]), name = line.Split("\t\t")[0] });
+                    highScores.Add(new HighScore { score = int.Parse(line.Split(";")[1]), name = line.Split(";")[0] });
                 }
             }
             catch

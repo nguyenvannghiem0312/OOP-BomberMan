@@ -1,43 +1,13 @@
-Nghiem		2000
-Hai		3000
-Phuc		5000
-Bao Anh		1500
-Sy Huan		1000
-Quan		10
-Hao		20
-Kien		30
-Thang		50
-Vuong		100
-Nghiem		0
-Nghiem		0
-Nghiem		250
-Long		0
-Hao		0
-Hao		230
-Nghiem		870
-Hai		510
-Son jong ki		190
-		30
-		0
-		0
-		0
-Hai3k		210
-		0
-Nghiemm		340
-		0
-		10
-		0
-		110
-		60
-		60
-		0
-		0
-		20
-		60
-		0
-Nghiem		440
-		0
-		60
-nghiem		870
-		60
-		680
+Kien;0
+Nghiem;3000
+Hai;3000
+Bao Anh;2500
+Sy Tien;2000
+Sy Huan;1500
+Hoang Son;1000
+Player 1;500
+Player 2;250
+Player 3;200
+Player 4;100
+Player 5;50;0
+;190

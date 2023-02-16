@@ -1,7 +1,7 @@
-EnemyPowerLeft	3,911752	-5	0
-EnemyMaxSpeedRight	7,378079	1	0
-EnemyBaseLeft	-8,067843	-1	0
-EnemyBaseUp	2	-0,5555149	0
-EnemyMoreSpeedLeft	3,175975	-5	0
-EnemyBaseLeft	1,205187	-3	0
-NumEnemy	6
+FireDragonHorizontal;5,840754;-5;0
+BatVertical;8;1,722939;0
+BatHorizontal;6,894763;5;0
+SuperSonicHorizontal;0,01449686;1;0
+SonicHorizontal;3,974815;-1;0
+GrounDragonHorizontal;-1,200313;-3;0
+NumEnemy;6

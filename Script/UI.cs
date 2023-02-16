@@ -7,8 +7,6 @@ using UnityEngine;
 public class UI : MonoBehaviour
 {
     [Header("Panel")]
-    public GameObject PanelWin;  // Maybe not need
-    public GameObject PanelLose; // Maybe not need
     public GameObject PanelSetting;
     public GameObject PanelEndGame;
     public GameObject PanelQuestion;
@@ -24,11 +22,18 @@ public class UI : MonoBehaviour
     public InputField saveName;
 
     static public bool isLoadMap = false;
+    // static public bool isSaveMap = false;
     public void ChangeScene(int SceneID)
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneID);
     }
+   /* public void ChangeContinueScene(int SceneID)
+    {
+        if(isSaveMap == true) {
+            SceneManager.LoadScene(SceneID);
+        }
+    }*/
     public void ShowPanel(GameObject Panel, bool panel)
     {
         if (Panel)
@@ -74,7 +79,7 @@ public class UI : MonoBehaviour
 
     public string GetName()
     {
-        return saveName.text.Replace("\t", " ") + "\t\t" + score.text.Remove(0, 7);
+        return saveName.text.Replace(";", " ") + ";" + score.text.Remove(0, 7);
     }
     public void ShowQuestionSave()
     {

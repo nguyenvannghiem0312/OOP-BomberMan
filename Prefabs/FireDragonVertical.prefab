@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8552846808684456642}
   - component: {fileID: 8552846808684456643}
   m_Layer: 10
-  m_Name: EnemySpeedUp
+  m_Name: FireDragonVertical
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

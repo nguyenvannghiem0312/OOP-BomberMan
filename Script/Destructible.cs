@@ -28,12 +28,12 @@ public class Destructible : MonoBehaviour
         string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
         foreach (string line in File.ReadLines(pathInformationPlayer))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "RatioItem":
-                    itemSpawnChance = int.Parse(line.Split("\t")[1]);
+                    itemSpawnChance = float.Parse(line.Split(";")[1]);
                     break;
                 default:
                     break;

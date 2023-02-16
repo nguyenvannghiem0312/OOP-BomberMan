@@ -427,9 +427,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanelWin: {fileID: 0}
   PanelLose: {fileID: 0}
-  score: {fileID: 0}
+  PanelSetting: {fileID: 0}
+  PanelEndGame: {fileID: 0}
+  PanelQuestion: {fileID: 0}
   numBomb: {fileID: 0}
   numHP: {fileID: 0}
+  score: {fileID: 0}
+  saveName: {fileID: 0}
 --- !u!4 &474768398
 Transform:
   m_ObjectHideFlags: 0
@@ -1585,7 +1589,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bomber man
+  m_Text: Bomberman
 --- !u!222 &1471878570
 CanvasRenderer:
   m_ObjectHideFlags: 0

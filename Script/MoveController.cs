@@ -7,9 +7,9 @@ public class MoveController : MonoBehaviour
 {
     [Header("Speed and HP")]
     [SerializeField] private int maxHP;
-    [SerializeField] private float maxSpeed;
-    public float speed = 5f;
-    public int HP = 1;
+    [SerializeField] private int maxSpeed;
+    [SerializeField] private int speed = 5;
+    [SerializeField] private int HP = 1;
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -37,10 +37,20 @@ public class MoveController : MonoBehaviour
         set { maxHP = value; }
         get { return maxHP; }
     }
-    public float MaxSpeed
+    public int Health
+    {
+        set { HP = value; }
+        get { return HP; }
+    }
+    public int MaxSpeed
     {
         set { maxSpeed = value; }
         get { return maxSpeed; }
+    }
+    public int Speed
+    {
+        set { speed = value; }
+        get { return speed; }
     }
     private void OnEnable()
     {
@@ -86,15 +96,21 @@ public class MoveController : MonoBehaviour
         string pathInformationPlayer = Application.dataPath + "/Resources/InformationPlayer.txt";
         foreach (string line in File.ReadLines(pathInformationPlayer))
         {
-            string name = line.Split("\t")[0];
+            string name = line.Split(";")[0];
 
             switch (name)
             {
                 case "MaxHP":
-                    MaxHP = int.Parse(line.Split("\t")[1]);
+                    MaxHP = int.Parse(line.Split(";")[1]);
                     break;
                 case "MaxSpeed":
-                    MaxSpeed = float.Parse(line.Split("\t")[1]);
+                    MaxSpeed = int.Parse(line.Split(";")[1]);
+                    break;
+                case "HP":
+                    Health = int.Parse(line.Split(";")[1]);
+                    break;
+                case "Speed":
+                    Speed = int.Parse(line.Split(";")[1]);
                     break;
                 default:
                     break;

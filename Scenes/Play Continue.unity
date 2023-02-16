@@ -5309,17 +5309,13 @@ MonoBehaviour:
   - {fileID: 1796590756}
   EnemysPrefabs:
   - {fileID: 3506748229138157083, guid: 5eadb753980b10a478f2bcbfdc708818, type: 3}
-  - {fileID: 225137838819442101, guid: 8b8b4b185a8dde04b810c6c3f6c827c9, type: 3}
   - {fileID: 6862026154115566878, guid: 96ef6191920709f46a612c9c98330d91, type: 3}
-  - {fileID: 3208508050739892414, guid: 2b357eca3eb313842b15d3cb6473a810, type: 3}
   - {fileID: 8656165119120737577, guid: 7bf67ad72bf85a144a23d4370a883aa9, type: 3}
   - {fileID: 8552846808684456652, guid: 08159cb8436770e47b8059d8306cdcd8, type: 3}
   - {fileID: 4803532883627380175, guid: 4894748aed478ff469fd578645f89792, type: 3}
   - {fileID: 5956104393709011616, guid: 2631891eb588c644b84d7ab88a536368, type: 3}
   - {fileID: 6261571918732416151, guid: c2a8b75ae0000674a80606ad87afda9d, type: 3}
-  - {fileID: 8932169805978545220, guid: 3e2a7133631c8c0499fe7ccea36f0018, type: 3}
   - {fileID: 4728876842092256089, guid: b5c5e1657be3b394abe76b481476793a, type: 3}
-  - {fileID: 2827482528035146245, guid: fe664131f30832943a0e4267abf862dd, type: 3}
   numEnemy: 0
   scoreHard: 400
   summonLayerMask:
@@ -5368,15 +5364,11 @@ MonoBehaviour:
   brick: {fileID: 11400000, guid: 2df999874ec9977489e74e3f2044f1d5, type: 2}
   enemyesLoad:
   - {fileID: 3506748229138157081, guid: 5eadb753980b10a478f2bcbfdc708818, type: 3}
-  - {fileID: 225137838819442107, guid: 8b8b4b185a8dde04b810c6c3f6c827c9, type: 3}
   - {fileID: 6862026154115566873, guid: 96ef6191920709f46a612c9c98330d91, type: 3}
   - {fileID: 6261571918732416149, guid: c2a8b75ae0000674a80606ad87afda9d, type: 3}
-  - {fileID: 8932169805978545222, guid: 3e2a7133631c8c0499fe7ccea36f0018, type: 3}
   - {fileID: 4728876842092256091, guid: b5c5e1657be3b394abe76b481476793a, type: 3}
-  - {fileID: 2827482528035146247, guid: fe664131f30832943a0e4267abf862dd, type: 3}
   - {fileID: 4803532883627380173, guid: 4894748aed478ff469fd578645f89792, type: 3}
   - {fileID: 5956104393709011622, guid: 2631891eb588c644b84d7ab88a536368, type: 3}
-  - {fileID: 3208508050739892416, guid: 2b357eca3eb313842b15d3cb6473a810, type: 3}
   - {fileID: 8656165119120737579, guid: 7bf67ad72bf85a144a23d4370a883aa9, type: 3}
   - {fileID: 8552846808684456642, guid: 08159cb8436770e47b8059d8306cdcd8, type: 3}
 --- !u!1 &501010271
@@ -7245,7 +7237,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -7257,7 +7249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "C\xF3"
 --- !u!222 &1136791240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10112,7 +10104,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -10124,7 +10116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No
+  m_Text: "Kh\xF4ng"
 --- !u!222 &2067509052
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10348,8 +10340,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 28
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -10360,7 +10352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Save Game ?
+  m_Text: "B\u1EA1n c\xF3 mu\u1ED1n l\u01B0u game kh\xF4ng?"
 --- !u!222 &2141891934
 CanvasRenderer:
   m_ObjectHideFlags: 0
