@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class AnimatedSprite : MonoBehaviour
 {
-    public Sprite idleSprite;
-    public Sprite[] animationSprites;
+    [SerializeField] private Sprite idleSprite;
+    [SerializeField] private Sprite[] animationSprites;
 
     private SpriteRenderer spriteRenderer;
-    public float animationTime = 0.25f;
+    [SerializeField] private float animationTime = 0.25f;
     private int animationFrame;
 
     public bool loop = true;

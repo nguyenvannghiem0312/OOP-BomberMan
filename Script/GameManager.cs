@@ -5,14 +5,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [Header("Players")]
-    public GameObject[] Players;
+    [SerializeField] private GameObject[] Players;
 
     [Header("Enemys")]
-    public GameObject[] EnemysPrefabs;
+    [SerializeField] private GameObject[] EnemysPrefabs;
+    [SerializeField] private int scoreHard = 400;
     public int numEnemy;
-    public int scoreHard = 400;
 
-    public LayerMask summonLayerMask;
+    [SerializeField] private LayerMask summonLayerMask;
 
     private UI ui;
     private void Awake()

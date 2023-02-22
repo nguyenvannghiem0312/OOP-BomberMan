@@ -1,9 +1,9 @@
-MaxHP;5
-MaxSpeed;7
-MaxBomb;5
-MaxRadius;5
+MaxHP;10
+MaxSpeed;10
+MaxBomb;10
+MaxRadius;10
 RatioItem;1
-HP;5
-Speed;7
-Bomb;5
-Radius;5
+HP;10
+Speed;10
+Bomb;10
+Radius;10

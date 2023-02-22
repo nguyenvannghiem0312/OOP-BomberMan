@@ -11,3 +11,5 @@ Player 3;200
 Player 4;100
 Player 5;50;0
 ;190
+;0
+Nghiem2k;440

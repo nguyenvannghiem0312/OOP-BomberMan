@@ -8,9 +8,9 @@ public class HighScoreTable : MonoBehaviour
 {
     private List<HighScore> highScores = new List<HighScore>();
 
-    public Transform entryContainer;
-    public Transform entryTemplate;
-    public Text posText, scoreText, nameText;
+    [SerializeField] private Transform entryContainer;
+    [SerializeField] private Transform entryTemplate;
+    [SerializeField] private Text posText, scoreText, nameText;
 
     private void Awake()
     {
@@ -31,7 +31,7 @@ public class HighScoreTable : MonoBehaviour
         }
     }
 
-    public void ReadScore()
+    private void ReadScore()
     {
         string path = Application.dataPath + "/Resources/Score.txt";
         foreach (string line in File.ReadLines(path))

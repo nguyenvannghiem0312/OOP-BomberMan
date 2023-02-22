@@ -8,13 +8,13 @@ using System;
 [SerializeField]
 public class SaveMap : MonoBehaviour
 {
-    public Tilemap tilemap;
-    public TileBase brick;
+    [SerializeField] private Tilemap tilemap;
+    [SerializeField] private TileBase brick;
     private List<Grid> grid = new List<Grid>();
     private string pathGrid, pathEnemy, pathPlayer;
 
-    // public MoveController playerLoad;
-    public EnemyController[] enemyesLoad;
+    // [SerializeField] private MoveController playerLoad;
+    [SerializeField] private EnemyController[] enemyesLoad;
 
     private void Awake()
     {

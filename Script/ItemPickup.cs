@@ -15,7 +15,7 @@ public class ItemPickup : MonoBehaviour
         SpeedItem,
     }
 
-    public ItemType type;
+    [SerializeField] private ItemType type;
 
     private void OnItemPickup(GameObject player)
     {

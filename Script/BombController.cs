@@ -12,21 +12,21 @@ public class BombController : MonoBehaviour
     [SerializeField] private float bombFuseTime = 3f;
     [SerializeField] private int bombAmount = 1;
     [SerializeField] private int bombsRemaining;
-    public GameObject bombPrefabs;
+    [SerializeField] private GameObject bombPrefabs;
 
     [Header("Place Bomb")]
-    public KeyCode inputKey = KeyCode.Space;
+    [SerializeField] private KeyCode inputKey = KeyCode.Space;
 
     [Header("Explosion Radius")]
     [SerializeField] private int maxRadius;
     [SerializeField] private int explosionRadius = 2;
     [SerializeField] private float explosionDuration = 1f;
-    public Explosion explosionPrefabs;
-    public LayerMask explosionLayerMask;
+    [SerializeField] private Explosion explosionPrefabs;
+    [SerializeField] private LayerMask explosionLayerMask;
 
     [Header("Map")]
-    public Tilemap destructibleTiles;
-    public Destructible destructiblePrefabs;
+    [SerializeField] private Tilemap destructibleTiles;
+    [SerializeField] private Destructible destructiblePrefabs;
 
     private SoundManage sound;
     private UI ui;
@@ -147,14 +147,6 @@ public class BombController : MonoBehaviour
         explosion.DestroyAfter(explosionDuration);
 
         Explode(position, direction, length - 1);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Bomb"))
-        {
-            //collision.isTrigger = false;
-        }
     }
 
     private void DestroyBrick(Vector2 position)

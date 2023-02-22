@@ -1,7 +1,7 @@
-FireDragonHorizontal;5,840754;-5;0
-BatVertical;8;1,722939;0
-BatHorizontal;6,894763;5;0
-SuperSonicHorizontal;0,01449686;1;0
-SonicHorizontal;3,974815;-1;0
-GrounDragonHorizontal;-1,200313;-3;0
+GrounDragonHorizontal;-4,89924;-3;0
+SonicHorizontal;1,565186;-1;0
+SuperSonicHorizontal;-3,285503;1;0
+BatHorizontal;6,936089;5;0
+BatVertical;8;1,564115;0
+FireDragonHorizontal;3,97905;-5;0
 NumEnemy;6

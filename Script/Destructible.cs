@@ -5,10 +5,11 @@ using System.IO;
 
 public class Destructible : MonoBehaviour
 {
-    public float destructibleTime = 1f;
+    [SerializeField] private float destructibleTime = 1f;
     [Range(0f, 1f)]
     public float itemSpawnChance = 0.2f;
-    public GameObject[] spawnableItems;
+    [SerializeField] private GameObject[] spawnableItems;
+    
     void Start()
     {
         UpdateInformation();

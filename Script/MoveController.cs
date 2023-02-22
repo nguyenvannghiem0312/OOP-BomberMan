@@ -12,18 +12,18 @@ public class MoveController : MonoBehaviour
     [SerializeField] private int HP = 1;
 
     [Header("Input")]
-    public KeyCode inputUp = KeyCode.W;
-    public KeyCode inputDown = KeyCode.S;
-    public KeyCode inputLeft = KeyCode.A;
-    public KeyCode inputRight = KeyCode.D;
+    [SerializeField] private KeyCode inputUp = KeyCode.W;
+    [SerializeField] private KeyCode inputDown = KeyCode.S;
+    [SerializeField] private KeyCode inputLeft = KeyCode.A;
+    [SerializeField] private KeyCode inputRight = KeyCode.D;
 
     [Header("Animation")]
-    public AnimatedSprite spriteRendererUp;
-    public AnimatedSprite spriteRendererDown;
-    public AnimatedSprite spriteRendererLeft;
-    public AnimatedSprite spriteRendererRight;
-    public AnimatedSprite spriteRendererRevival;
-    public AnimatedSprite spriteRendererDeath;
+    [SerializeField] private AnimatedSprite spriteRendererUp;
+    [SerializeField] private AnimatedSprite spriteRendererDown;
+    [SerializeField] private AnimatedSprite spriteRendererLeft;
+    [SerializeField] private AnimatedSprite spriteRendererRight;
+    [SerializeField] private AnimatedSprite spriteRendererRevival;
+    [SerializeField] private AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
 
     public Rigidbody2D rigibody { get; private set; }
@@ -117,7 +117,7 @@ public class MoveController : MonoBehaviour
             }
         }
     }
-    public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
+    private void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {
         direction = nDirection;
 

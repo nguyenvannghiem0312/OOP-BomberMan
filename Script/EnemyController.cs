@@ -8,16 +8,16 @@ public class EnemyController : MonoBehaviour
     public Rigidbody2D rigibody { get; private set; }
 
     [Header("Direction")]
-    public Vector2 directionStart = Vector2.down;
-    public Vector2 directionEnd = Vector2.up;
+    [SerializeField] private Vector2 directionStart = Vector2.down;
+    [SerializeField] private Vector2 directionEnd = Vector2.up;
 
     [Header("Speed")]
-    public float speed = 2f;
+    [SerializeField] private float speed = 2f;
     
     [Header("Animation")]
-    public AnimatedSprite spriteRendererStart;
-    public AnimatedSprite spriteRendererEnd;
-    public AnimatedSprite spriteRendererDeath;
+    [SerializeField] private AnimatedSprite spriteRendererStart;
+    [SerializeField] private AnimatedSprite spriteRendererEnd;
+    [SerializeField] private AnimatedSprite spriteRendererDeath;
     private AnimatedSprite activeSpriteRenderer;
 
     private bool isEnemy;
@@ -55,7 +55,7 @@ public class EnemyController : MonoBehaviour
             Death();
         }
     }
-    public void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
+    private void SetDirection(Vector2 nDirection, AnimatedSprite animatedSprite)
     {
         directionStart = nDirection;
 
