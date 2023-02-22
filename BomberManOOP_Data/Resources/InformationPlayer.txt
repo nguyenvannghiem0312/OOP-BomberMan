@@ -1,0 +1,9 @@
+MaxHP;5
+MaxSpeed;7
+MaxBomb;5
+MaxRadius;5
+RatioItem;0,2
+HP;1
+Speed;5
+Bomb;1
+Radius;1

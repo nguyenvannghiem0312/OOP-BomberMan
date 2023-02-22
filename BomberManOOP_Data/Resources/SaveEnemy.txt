@@ -1,0 +1,7 @@
+BatHorizontal;5,49463;5;0
+SonicHorizontal;-0,3548142;-1;0
+GrounDragonHorizontal;-3,499332;-3;0
+SuperSonicHorizontal;0,9144968;1;0
+BatVertical;8;2,124728;0
+FireDragonHorizontal;3,320953;-5;0
+NumEnemy;6

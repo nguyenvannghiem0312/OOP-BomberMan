@@ -1,0 +1,17 @@
+Kien;0
+Nghiem;3000
+Hai;3000
+Bao Anh;2500
+Sy Tien;2000
+Sy Huan;1500
+Hoang Son;1000
+Player 1;500
+Player 2;250
+Player 3;200
+Player 4;100
+Player 5;50;0
+;50
+;0
+;60
+;0
+;50

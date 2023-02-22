@@ -1,0 +1,6 @@
+Player;-8,514735;2,909311;0
+Score;0
+HP;1
+Bomb;1
+Speed;5
+Radius;2
