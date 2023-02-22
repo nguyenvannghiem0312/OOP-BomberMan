@@ -39,3 +39,12 @@ Khi phá hủy các _Brick_ sẽ có xác suất ngẫu nhiên xuất hiện cá
 ## Mô tả Game Play
 
 Nhiệm vụ của mỗi người chơi là di chuyển và đặt bomb tiêu diệt nhiều quái nhất có thể. Mỗi quái sẽ nhân được mức điểm tương ứng. Phá hủy các viên gạch sẽ có xác suất nhận được các item, các item sẽ giúp tăng chỉ cho người chơi do vậy giai đoạn đầu game hãy tập trung phá các viên gạch để nâng cấp _Player_. Người chơi sẽ bị mất máu khi va chạm với _Enemy_ hoặc các _Flame_ do _Bomb_ nổ tạo ra. Các _Enemy_ cũng có thể bị tiêu diệt khi chúng va chạm vào nhau nhưng sẽ không được tính điểm. Khi mỗi _Enemy_ bị tiêu diệt sẽ có ngẫu nhiên _Enemy_ khác xuất hiện tại vị trí ngẫu nhiên do vậy bạn hãy cẩn thân nếu không không kịp trở tay. Khi điểm của bạn càng cao thì số lượng _Enemy_ xuất hiện càng nhiều.
+
+## Ý tưởng phát triển game
+
+Game có thể được mở rộng với nhiều ý tưởng thú vị như:
+
+* Thêm nhiều nhân vật, item, quái.
+* Người chơi có thể sử dụng vũ khí khác ngoài bomb.
+* Thiết kế thêm chế độ lối chơi vượt ải nhiều level.
+* Chơi qua mạng LAN hoặc chế độ chơi online.
